@@ -1,8 +1,4 @@
-## Project is running in virtual environment (A private Python + packages folder just for one project) for this project to run: py -3.12 -m venv venv
-## To run this, Change directory : cd "D:\Coding Folder\Python\9. ML Code (Original)\1. Linear Regression\2. Linear Regression Project" then python application.py
-
-
-import pickle
+## To run this, Change directory : cd "folder path" then python application.py
 from flask import Flask,request,jsonify,render_template
 import numpy as np
 import pandas as pd
@@ -16,7 +12,7 @@ application = Flask(__name__)
 app=application
 
 ## import ridge regresor model and standard scaler pickle
-
+## You can use this below code too by giving correct path name:
 ## ridge_model=pickle.load(open('models/ridge.pkl','rb'))
 ## standard_scaler=pickle.load(open('models/scaler.pkl','rb'))
 
