@@ -17,7 +17,7 @@
 This project focuses on predicting the **Fire Weather Index (FWI)** using the **Algerian Forest Fires Dataset**.  
 FWI is a widely used numerical index to assess **wildfire risk** based on meteorological conditions.
 
-The project applies **machine learning regression techniques** to predict FWI values, helping in early detection and analysis of forest fire risk.
+Machine learning regression models are applied to predict FWI values, helping in **early detection and analysis of forest fire risk**.
 
 ---
 
@@ -75,3 +75,17 @@ The **Algerian Forest Fires Dataset** contains data collected from two regions o
 
 ## 📁 Project Structure
 
+forestfire/
+│
+├── dataset/
+├── models/
+├── notebooks/
+├── templates/
+├── application.py
+└── README.md
+
+📊 Results
+
+The trained models show strong performance in predicting the Fire Weather Index, demonstrating that meteorological data can effectively estimate wildfire risk.
+
+⭐ If you like this project, consider giving it a star!
