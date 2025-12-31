@@ -71,21 +71,9 @@ The **Algerian Forest Fires Dataset** contains data collected from two regions o
 - Scikit-learn  
 - Jupyter Notebook  
 
----
-
-## 📁 Project Structure
-
-forestfire/
-│
-├── dataset/
-├── models/
-├── notebooks/
-├── templates/
-├── application.py
-└── README.md
-
 📊 Results
 
 The trained models show strong performance in predicting the Fire Weather Index, demonstrating that meteorological data can effectively estimate wildfire risk.
 
 ⭐ If you like this project, consider giving it a star!
+
